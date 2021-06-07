@@ -7,6 +7,18 @@ public class Student { // class: 클래스를 만드는 예약어 // Student: �
 	int grade; // 학년
 	String address; // 사는 곳
 
+	
+	// 메서드 게터
+	public String getStudentName() { // String: 반환값(멤버변수_this.studentName) // 멤버 변수 값을 반환하는 것이라 매개변수가 없다.
+		return this.studentName; // 학생의 이름을 반환 하는 메서드
+	}
+	
+	// 메서드 세터
+	public void setStudentName(String name) { // 반환값이 없으므로 void // 학생 이름을 매개변수로 전달
+		this.studentName = name;
+	}
+	
+	
 	// 메서드
 	public void showStudentInfo() {
 		System.out.println(studentName + ", " + address); // 이름, 주소 출력
