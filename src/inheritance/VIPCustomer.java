@@ -14,6 +14,7 @@ public class VIPCustomer extends Customer { // VIPCustomer(하위클래스_일�
 		customerGrade = "VIP"; // 상위클래스(Customer)에서 protected 로 변경
 		bonusRatio = 0.05; // 포너스 포인트 적립 비율 5%
 		saleRatio = 0.1; // 할인율 10%
+		System.out.println("VIPCustomer() 생성자 호출"); // 클래스 생성할 때 콘솔 출력문
 	}
 
 
