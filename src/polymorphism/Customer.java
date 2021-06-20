@@ -6,8 +6,8 @@ public class Customer {
 	private int customerID; // 고객 아이디
 	private String customerName; // 고객 이름
 	protected String customerGrade; // 고객 등급
-	int bonusPoint; // 보너스 포인트
-	double bonusRatio; // 적립 비율
+	public int bonusPoint; // 보너스 포인트
+	protected double bonusRatio; // 적립 비율
 
 
 
